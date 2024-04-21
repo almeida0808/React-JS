@@ -5,11 +5,9 @@ export default {
     BACKGROUND_700: "#3E3B47",
 
     WHITE: "#F4EDE8",
-    PURPLE: "#4B1638",
+    VIOLET: "#AF7FF3",
 
     GRAY_100: "#999591",
     GRAY_300: "#666360",
-
-    PINK: "#A12E67",
   },
 };
