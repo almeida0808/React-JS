@@ -8,12 +8,13 @@ export function Details() {
     // existe uma regra no react que faz com o nosso componente retorne apenas um elemento, pra resolver isso podemos ultilizzar o fragment ,que ser ve como um emmbrulhador , sintax fragment =  <> </> ou podemos usar uma div.
 
     // dentro do return fica o conteudo da nossa interface
+    
     <Container>
 <Header/>
-<Section title="link úteis">
-
+<Section title="link úteis"> 
+{/* todos esses elementos dentro da section são o "children" */}
   <ul>
-  <li>Item 1</li>
+  <li>Item 1</li> 
   <li>Item 2</li>
   <li>Item 3</li>
   </ul>

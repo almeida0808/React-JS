@@ -8,6 +8,6 @@ export const Container = styled.section`
 
     border-bottom-color: ${({ theme }) => theme.COLORS.GRAAY_100};
     font-size: 2rem;
-    
+    font-weight: 400;
   }
 `;
