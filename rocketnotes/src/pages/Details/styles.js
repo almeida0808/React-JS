@@ -9,3 +9,15 @@ export const Container = styled.div`
     "header"
     "content";
 `;
+export const Links = styled.ul`
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  li {
+    > a {
+      color: ${({ theme }) => theme.COLORS.WHITE};
+    }
+  }
+`;

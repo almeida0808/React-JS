@@ -20,23 +20,22 @@ export const Profile = styled.div`
   align-items: center;
 
   > img {
-    width: 5.6rem;
-    height: 5.6rem;
+    width: 6.5rem;
     border-radius: 50%;
   }
   > div {
     display: flex;
     flex-direction: column;
     margin-left: 1.6rem;
-    line-height: 2.4rem;
+    line-height: 2.1rem;
 
     > span {
-      font-size: 1.4rem;
+      font-size: 1.6rem;
       color: ${({ theme }) => theme.COLORS.GRAY_100};
     }
 
     > strong {
-      font-size: 1.8rem;
+      font-size: 2rem;
       color: ${({ theme }) => theme.COLORS.WHITE};
     }
   }

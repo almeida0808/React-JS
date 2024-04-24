@@ -8,7 +8,7 @@ export function Header({name = "Lucas Almeida", ...rest}) {
   <img src="https://github.com/almeida0808.png" alt="Foto de Perfil" />
 
   <div>
-    <span>Bem Vindo</span>
+    <span>Bem Vindo,</span>
     <strong>{name}</strong>
   </div>
 </Profile>
