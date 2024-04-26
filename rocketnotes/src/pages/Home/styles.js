@@ -44,7 +44,7 @@ export const Menu = styled.ul`
 
   gap: 2.4rem;
 
-  > li:first-child {
+  > button:first-child {
     padding-top: 6.4rem;
   }
 `;
@@ -56,7 +56,14 @@ export const Content = styled.div`
 `;
 export const NewNotes = styled.button`
   border: none;
-
+  display: FLEX;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
   grid-area: newnote;
-  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+  background-color: ${({ theme }) => theme.COLORS.VIOLET};
+
+  font-size: 2rem;
+
+  font-weight: 400;
 `;
