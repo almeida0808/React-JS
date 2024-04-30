@@ -50,9 +50,13 @@ export const Menu = styled.ul`
 `;
 export const Search = styled.div`
   grid-area: search;
+  padding: 64px 64px 0;
 `;
 export const Content = styled.div`
   grid-area: content;
+
+  padding: 64px 64px 0;
+  overflow-y: auto;
 `;
 export const NewNotes = styled.button`
   border: none;
@@ -65,5 +69,5 @@ export const NewNotes = styled.button`
 
   font-size: 2rem;
 
-  font-weight: 400;
+  font-weight: 500;
 `;

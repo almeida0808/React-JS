@@ -1,10 +1,12 @@
 import { Container, Brand, Menu, Search, Content, NewNotes } from "./styles";
+import { FiSearch } from "react-icons/fi";
 import { RiAddLine } from "react-icons/ri";
 
 import { Header } from "../../components/header";
-import { Tags } from "../../components/tags";
 import { TextButton } from "../../components/text-button";
-import { Button } from "../../components/button";
+import {Input} from "../../components/input"
+import { Notes } from "../../components/notes"
+import {Section} from "../../components/section"
 
 export function Home() {
   return(
@@ -22,11 +24,24 @@ export function Home() {
 </Menu>
 
 <Search>
+<Input placeholder="Pesquisar pelo título" icon={FiSearch}/>
 
 </Search>
 
 <Content>
+  <Section title="Minhas Notas">
 
+<Notes data={{
+  title:"Testando Notas" , 
+  tags:[
+    {id:'1',name: 'teste'},
+    {id:'2', name:'criando'},
+    
+]
+}}
+  />
+
+  </Section>
 </Content>
 
 <NewNotes>
