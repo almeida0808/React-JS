@@ -44,7 +44,7 @@ export function Home() {
   </Section>
 </Content>
 
-<NewNotes>
+<NewNotes to="/new">
 <RiAddLine />
 <p>Criar Nota</p>
 </NewNotes>

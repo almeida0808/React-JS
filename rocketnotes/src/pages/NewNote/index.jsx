@@ -4,6 +4,8 @@ import { Input } from "../../components/input";
 import { TextArea} from "../../components/text-area"
 import { Section } from "../../components/section";
 import { NoteItem } from "../../components/note-item";
+import { Button } from "../../components/button";
+import { Link } from "react-router-dom";
 
 export function NewNote() {
   return(
@@ -14,15 +16,28 @@ export function NewNote() {
 <Form>
 <header>
   <h1>Criar Nota</h1>
-    <a href="/">voltar</a>
+    <Link to="/">voltar</Link>
 </header>
 <Input placeholder="Título"/>
 <TextArea placeholder="Observações"/>
 
 <Section title="links úteis">
+  <div className="links">
 <NoteItem value="almeida.dev"/>
 <NoteItem isNew placeholder="Novo link"/>
+</div>
 </Section>
+
+<Section title="Marcadores">
+  <div className="tags">
+<NoteItem value="dev"/>
+<NoteItem isNew placeholder="Nova Tag"/>
+<NoteItem isNew placeholder="Nova Tag"/>
+
+</div>
+</Section>
+
+<Button title="Salvar"/>
 </Form>
 
 </main>

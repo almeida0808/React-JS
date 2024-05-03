@@ -5,6 +5,8 @@ import { Input } from "../../components/input";
 import { Button } from "../../components/button";
 import { TextButton } from "../../components/text-button";
 
+import {Link} from 'react-router-dom'
+
 export function SignIn() {
   return (
     <Container>
@@ -20,7 +22,7 @@ export function SignIn() {
 
         <Button title="Entrar"></Button>
 
-        <a href="youtube.com">Criar Conta</a>
+        <Link to="/register">Criar Conta</Link>
       </Form>
 
       <Background/>

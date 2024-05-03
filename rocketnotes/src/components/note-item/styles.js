@@ -18,10 +18,11 @@ export const Container = styled.div`
   > button {
     border: none;
     background: none;
-
+    display: flex;
+    align-items: center;
+    margin-right: 1.6rem;
     svg {
       font-size: 2.2rem;
-      padding;
     }
   }
 
@@ -43,6 +44,7 @@ export const Container = styled.div`
     background: transparent;
 
     border: none;
+    outline: none;
 
     &::placeholder {
       color: ${({ theme }) => theme.COLORS.GRAY_300};
